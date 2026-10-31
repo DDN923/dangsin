@@ -33,7 +33,7 @@ module.exports = (req, res) => {
     + `<text x="18" y="56" font-size="15" font-weight="700" fill="#111">‹ ${esc(n)}</text><text x="342" y="56" font-size="11" fill="#aaa" text-anchor="end">까똑</text><path d="M0 72h360" stroke="#eee"/>`
     + body
     + `<rect x="12" y="596" width="292" height="32" rx="16" fill="#f2f2f2"/><text x="28" y="617" fill="#aaa">메시지 입력</text>`
-    + `<rect x="312" y="596" width="36" height="32" rx="16" fill="${PINK}"/><g transform="translate(322,604) scale(.667)" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></g>`
+    + `<rect x="312" y="596" width="36" height="32" rx="16" fill="${PINK}"/><g transform="translate(322,604) scale(.667)" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></g>`
     + `</svg>`;
   send(res, svg);
 };
