@@ -11,7 +11,7 @@ module.exports = (req, res) => {
     if (!isNaN(dt)) label = `${y}년 ${m}월 ${dd}일 ${DAYS[dt.getUTCDay()]}요일`;
   }
   // 넓은 배너 + 큰 고유 크기: PC에서도 채팅 폭에 맞춰 크게 보이도록
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" width="1280" height="300" font-family="'Nanum Myeongjo','AppleMyungjo','Batang',serif" fill="#111">`
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" width="1820" height="427" font-family="'Nanum Myeongjo','AppleMyungjo','Batang',serif" fill="#111">`
     + `<rect width="640" height="150" rx="10" fill="#faf8f3"/>`
     + `<text x="320" y="80" font-size="60" font-weight="900" text-anchor="middle" letter-spacing="2">THE CATCH</text>`
     + `<path d="M24 98h592M24 103h592" stroke="#111" stroke-width="1.5"/>`
