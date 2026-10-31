@@ -2,7 +2,7 @@
 // GET /api/kkatok?t=HH:MM&n=저장명&m=J재진 메시지|U은우 메시지|...
 //   t: 헤더 시간 / n: 상태창 저장명 / m: 메시지(|로 구분, J=재진, U=은우, 띄어쓰기는 +)
 const { esc, clean, textWidth, send } = require('./_util');
-const PINK = '#C2255C';
+const PINK = '#0284C7';
 module.exports = (req, res) => {
   const q = req.query || {};
   const t = clean(q.t).slice(0, 5) || '21:40';
