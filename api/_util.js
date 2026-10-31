@@ -13,7 +13,7 @@ const textWidth = (s, size = 13) => {
 };
 const send = (res, svg) => {
   res.setHeader('Content-Type', 'image/svg+xml; charset=utf-8');
-  res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+  res.setHeader('Cache-Control', 'public, max-age=3600');
   res.status(200).send(svg);
 };
 module.exports = { esc, clean, textWidth, send };
